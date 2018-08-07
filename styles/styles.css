@@ -1,0 +1,61 @@
+/* utilities */
+.transparent{
+    background: transparent;
+}
+/* components */
+/* main navigation */
+.rounded-button-block .button{
+    border:1px solid white;
+
+}
+.main-nav{
+    max-height:4rem;
+}
+
+.main-banner{
+    padding:0;
+    /* /background: url('/images/banners/cosmo-banner.png') no-repeat center center fixed; */
+    
+    background-size: cover;
+}
+.section-with-icons{
+    color:#1587dd;
+}
+
+/* Carousel */
+.carousel-indicators li.active {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    border-radius: 10rem;
+}
+.carousel-indicators li:not(.active) {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    border-radius: 10rem;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.bd-highlight{
+    color:#1587dd;
+    font-style: bold;
+}
+.bd-highlight img{
+    width: 30px;
+}
+
+.btn.btn-outline-secondary.rounded{
+
+}
