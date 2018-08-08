@@ -1,7 +1,26 @@
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 /* utilities */
 .transparent{
     background: transparent;
 }
+.primary-text{
+    color:#309aeb;
+}
+.icons-right-text{
+    font-size: .6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+  
 /* components */
 /* main navigation */
 .rounded-button-block .button{
@@ -10,6 +29,8 @@
 }
 .main-nav{
     max-height:4rem;
+    position: absolute;
+    z-index: 9999;
 }
 
 .main-banner{
@@ -47,6 +68,27 @@
     background-color: transparent;
     border: 1px solid white;
 }
+/* section flex */
+/* media queries */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {   
+    .decrease-margin-top{
+        margin-top: -1rem;
+    }
+}
+  
+/*  ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px */  
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .decrease-margin-top{
+        margin-top: -1rem;
+    }
+}
+
 
 .bd-highlight{
     color:#1587dd;
@@ -55,7 +97,71 @@
 .bd-highlight img{
     width: 30px;
 }
-
-.btn.btn-outline-secondary.rounded{
-
+.btn.btn-outline-secondary.rounded .btn{
+    border: 1px solid gray;
 }
+
+.gray-bg{
+    background: #e5eff9;
+}
+
+
+/* products carousel */
+.bg-avoria-text{
+    background:url('/images/avoria-text-background.png') no-repeat center center fixed;
+}
+
+.starz{
+    color: #cae9fd;
+}
+.starz .checked {
+    color: #ffdc1a;
+}
+
+.product-description{
+    color:#1587dd;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:0.9rem;
+}
+.carousel-item {}
+.product-cover-image:before{
+    content: "";
+    display: block;
+}
+
+.product-description{
+    text-align: center;
+}
+
+.cost{
+    color:#1587dd;
+    font-weight: 600;
+    font-size:1.2rem;
+}
+
+/* categories */
+
+
+.categories h2 {
+    color: red;
+    font-size: 8rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+               url(../images/2clr-grad.png) repeat center center;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+  }
+
+  /* Orange & pineapple */
+  .orange-static{
+      position: absolute;
+      z-index: 99999;
+      transform: translateY(-10rem);
+  }
+  .orange-static{
+    width:300px;
+  }
