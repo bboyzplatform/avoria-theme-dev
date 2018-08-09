@@ -6,7 +6,9 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
-
+body{
+    font-family: Roboto;
+}
 /* utilities */
 .transparent{
     background: transparent;
@@ -22,6 +24,19 @@
 
   
 /* components */
+.dark-panel{
+    background-color:#00172880;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 0.7rem;
+    color: white;
+    /* position: absolute; */
+    width: 100%;
+    /* bottom: 0; */
+    transform: translateY(-3.8rem);
+}
+
 /* main navigation */
 .rounded-button-block .button{
     border:1px solid white;
@@ -89,7 +104,6 @@
     }
 }
 
-
 .bd-highlight{
     color:#1587dd;
     font-style: bold;
@@ -145,7 +159,6 @@
 
 .categories h2 {
     color: red;
-    font-size: 8rem;
     font-weight: bold;
     letter-spacing: 1rem;
     text-transform: uppercase;
@@ -157,11 +170,125 @@
   }
 
   /* Orange & pineapple */
-  .orange-static{
-      position: absolute;
-      z-index: 99999;
-      transform: translateY(-10rem);
+  
+.pineapple-static{
+    position: absolute;
+    z-index: 99999;
+    /* width: 396px; */
+    right:0;
+    transform: translateY(-78rem);
+    overflow: hidden;
+}
+
+.orange-static{
+    position: absolute;
+    z-index: 99999;
+    transform: translate(-10px, 4rem);
+}
+.grid-layer{
+    padding-left: 3rem;
+    padding-right: 3rem;
+ }
+    
+
+.grid-layer .first-container{
+    
+    width:100%;
+}
+.grid-layer .first-container img,
+.grid-layer .second-container img,
+.grid-layer .third-container img{
+    width:100%;
+}
+
+.grid-layer .second-container{
+  
+}
+
+.grid-layer .third-container{
+    
+}
+.top-minus-alignment{
+    margin-top: -2.4rem;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  
+    .categories h2 {
+        font-size: 5rem;
+        margin-bottom: -1rem;
+    }
+    .orange-static{
+        display:none;
+    }
+    .grid-layer {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media (min-width: 991px){
+    .orange-static {
+        display:block;
+    } 
+    
+.big-gradient-2colors{
+    margin-bottom:-2.2rem;
+    font-size: 12rem;
+}
+}
+  
+ /* deal-des-tages section*/
+.deal-des-tages{
+    min-height: 748px;
   }
-  .orange-static{
-    width:300px;
-  }
+.deal-des-tages .bg-text-image{
+background: url(../images/deal-des-tages.png) no-repeat center center;
+    background-position-x: left;
+    background-position-y: top;
+}
+
+.deal-des-tages .clocks{
+    background: url(../images/deal-des-tages_clocks.png) no-repeat center center;
+}
+.deal-des-tages h2{
+    color: #1587dd;
+    font-size: 57px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-left: 12.5rem;
+    margin-bottom: 0;
+}
+.deal-des-tages .line-through{
+    text-decoration: line-through;
+    color: red;
+    padding-left: 13px;
+}
+.deal-des-tages .cost{
+    font-size:3rem;
+}
+.deal-des-tages .btn.btn-outline-danger{
+    border-radius: 2px;
+    width: 307px;
+    background-color: red;
+    font-size: 0.9rem;
+    color:white;
+    border:2px solid black;
+    letter-spacing: 5px;
+}
+
+.deal-des-tages .btn.btn-outline-danger:hover{
+    background-color: #a20202;
+    border:2px solid #524f4f;
+    transition:.5s;
+    letter-spacing: 6px;
+}
+.deal-des-tages .product-description{
+    font-size: 1.2rem;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.adv-counter{
+    color:#1587dd
+}
