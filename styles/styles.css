@@ -250,7 +250,7 @@ background: url(../images/deal-des-tages.png) no-repeat center center;
 }
 
 .deal-des-tages .clocks{
-    background: url(../images/deal-des-tages_clocks.png) no-repeat center center;
+    background: url(../images/deal-des-tages_zhizha.png) no-repeat center center;
 }
 .deal-des-tages h2{
     color: #1587dd;
@@ -291,4 +291,12 @@ background: url(../images/deal-des-tages.png) no-repeat center center;
 }
 .adv-counter{
     color:#1587dd
+}
+/* Modal window */
+#poleChudesModal iframe{
+    width: 100%;
+    min-height: 300px;
+}    
+.clocks{
+    min-height: 500px;
 }
