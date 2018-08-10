@@ -1,0 +1,223 @@
+/* Stylize page */
+
+#lottery_vape_widget .modal-body {
+    background-color: 001520;
+    /* overflow: hidden !important; Disable scrolling */
+}
+/* Stylize wheel */
+#lottery_vape_widget .modal-dialog {
+    width: 100%;
+    /* height: 100%; */
+    padding: 0;
+    max-width: initial;
+  }
+  
+  .modal-content {
+    height: 100%;
+    border-radius: 0;
+  }
+#lottery_vape_widget .wheel {
+    width: 100vmin;
+    max-width: 1000px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vmin;
+    display: inline-block;
+}
+#lottery_vape_widget .lighten{
+    text-shadow: 0px 0px 28.42px rgba(255, 255, 255, 0.69)  !important; 
+    color: #b5f7ff !important;
+}
+
+#lottery_vape_widget .wheel-img {
+    width: auto;
+    height: 100%;
+}
+
+#lottery_vape_widget .arrow-img, .light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vmin;
+    height: 100vmin;
+}
+#lottery_vape_widget .light {
+    opacity: 0.1;
+}
+#lottery_vape_widget .wheel-text {
+    font-size: 2.3vmin;
+    font-family: 'Roboto', sans-serif;
+    color: #204d5e;
+    width: 17.2vmin;
+    line-height: 1.5;
+    text-align: center;
+    text-shadow: 0px 0px 69.3px rgba(255, 255, 255, 0.32);
+}
+/* Stylize content */
+
+#lottery_vape_widget .content {
+    display: inline-block;
+    width: 32vw;
+    padding-left: 50px;
+    max-width: 800px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100%;
+}
+
+#lottery_vape_widget .content-img {
+    height: 60%;
+    margin: 25px 0 75px 0;
+}
+
+#lottery_vape_widget .content-form {
+    margin-bottom: 25px;
+    background-color: rgba(0,0,0,0);
+    border: 1px white solid !important;
+    width: 80%;
+    padding: 10px;
+    color: white;
+}
+
+#lottery_vape_widget .content-btn{
+    width: 50%;
+    margin-left: -20px;
+    display: block;
+}
+
+#lottery_vape_widget .exit-btn{
+    width: 30%;
+    bottom: 25px;
+    position: absolute;
+}
+
+/* Set position for text elements directly */
+
+#lottery_vape_widget .GOOD_LUCK_LATER {
+        -moz-transform: matrix( -0.51067518056861,-0.8684360790775,0.8684360790775,-0.57512932957242,0,0);
+        -webkit-transform: matrix( -0.51067518056861,-0.8684360790775,0.8684360790775,-0.57512932957242,0,0);
+        -ms-transform: matrix( -0.51067518056861,-0.8684360790775,0.8684360790775,-0.57512932957242,0,0);
+        position: absolute;
+        top: 25.9vmin;
+        left: 30.1vmin;
+    }
+
+    #lottery_vape_widget ._20_DISCOUNT {
+    -moz-transform: matrix( 0.20650804554278,-0.97969508392479,0.97969508392479,0.23257216779574,0,0);
+    -webkit-transform: matrix( 0.20650804554278,-0.97969508392479,0.97969508392479,0.23257216779574,0,0);
+    -ms-transform: matrix( 0.20650804554278,-0.97969508392479,0.97969508392479,0.23257216779574,0,0);
+    position: absolute;
+    top: 23.7vmin;
+    left: 45.7vmin;
+  }
+
+  #lottery_vape_widget .FREE_2_PROBE {
+    -moz-transform: matrix( 0.84885639511209,-0.56639716655803,0.56639716655803,0.95599361002915,0,0);
+    -webkit-transform: matrix( 0.84885639511209,-0.56639716655803,0.56639716655803,0.95599361002915,0,0);
+    -ms-transform: matrix( 0.84885639511209,-0.56639716655803,0.56639716655803,0.95599361002915,0,0);
+    position: absolute;
+    top: 33.7vmin;
+    left: 60vmin;
+  }
+
+  #lottery_vape_widget ._15_DISCOUNT {
+    -moz-transform: matrix( 1.02997084706228,0.00752375205252,-0.00752375205251,1.15996716756529,0,0);
+    -webkit-transform: matrix( 1.02997084706228,0.00752375205252,-0.00752375205251,1.15996716756529,0,0);
+    -ms-transform: matrix( 1.02997084706228,0.00752375205252,-0.00752375205251,1.15996716756529,0,0);
+    position: absolute;
+    top: 46.3vmin;
+    left: 64.7vmin;
+  }
+
+  #lottery_vape_widget .OOPS_SO_SORRY {
+    -moz-transform: matrix( 0.74726308366206,0.68822412745729,-0.68822412745729,0.84157784179417,0,0);
+    -webkit-transform: matrix( 0.74726308366206,0.68822412745729,-0.68822412745729,0.84157784179417,0,0);
+    -ms-transform: matrix( 0.74726308366206,0.68822412745729,-0.68822412745729,0.84157784179417,0,0);
+    position: absolute;
+    top: 61.8vmin;
+    left: 59.6vmin;
+  }
+
+  #lottery_vape_widget ._30_DISCOUNT {
+    -moz-transform: matrix( 0.1114830045589,0.99412523565154,-0.99412523565154,0.12555367503722,0,0);
+    -webkit-transform: matrix( 0.1114830045589,0.99412523565154,-0.99412523565154,0.12555367503722,0,0);
+    -ms-transform: matrix( 0.1114830045589,0.99412523565154,-0.99412523565154,0.12555367503722,0,0);
+    position: absolute;
+    top: 69.6vmin;
+    left: 45.7vmin;
+  }
+
+  #lottery_vape_widget .NOT_TODAY {
+    -moz-transform: matrix( -0.52281602909779,0.86159969751507,-0.86159969751507,-0.58880251820721,0,0);
+    -webkit-transform: matrix( -0.52281602909779,0.86159969751507,-0.86159969751507,-0.58880251820721,0,0);
+    -ms-transform: matrix( -0.52281602909779,0.86159969751507,-0.86159969751507,-0.58880251820721,0,0);
+    position: absolute;
+    top: 68.6vmin;
+    left: 29.1vmin;
+  }
+
+  #lottery_vape_widget ._10_DISCOUNT {
+    -moz-transform: matrix( -0.95454008928455,0.37570835846173,-0.37570835846174,-1.07501602288357,0,0);
+    -webkit-transform: matrix( -0.95454008928455,0.37570835846173,-0.37570835846174,-1.07501602288357,0,0);
+    -ms-transform: matrix( -0.95454008928455,0.37570835846173,-0.37570835846174,-1.07501602288357,0,0);
+    position: absolute;
+    top: 55.4vmin;
+    left: 19.2vmin;
+  }
+
+  #lottery_vape_widget .FREE_1_PROBE {
+    -moz-transform: matrix( -0.97316458951624,-0.32758996754102,0.32758996754102,-1.09599118819304,0,0);
+    -webkit-transform: matrix( -0.97316458951624,-0.32758996754102,0.32758996754102,-1.09599118819304,0,0);
+    -ms-transform: matrix( -0.97316458951624,-0.32758996754102,0.32758996754102,-1.09599118819304,0,0);
+    position: absolute;
+    top: 38.5vmin;
+    left: 18.5vmin;
+  }
+  
+/* Snackbar */
+#lottery_vape_widget .snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#lottery_vape_widget .snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+/*by itis.team*/

@@ -206,6 +206,10 @@
     <link rel="stylesheet" href="/styles/bootstrap.grid.min.css" />
     <!-- Fontawesome icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- lottery styles -->
+    <link rel="stylesheet" href="styles/lottery_vape.css">
+    <!-- customized styles -->
     <link rel="stylesheet" href="styles/styles.css" />
 </head>
 
@@ -408,9 +412,8 @@
     <div class="d-flex justify-content-center bg-avoria-text">
         <h3 class="display-4 p-5 primary-text text-center">AVORIA TOP SALER</h3>
     </div>
-    <section>
+    <section class="product-line">
         <div class="jumbotron jumbotron-fluid">
-
             <!-- banner carousel -->
             <div id="products-carousel" class="carousel slide" data-interval="0" data-ride="carousel">
                 <div class="carousel-inner">
@@ -808,15 +811,35 @@
                     <img src="../images/pineapple.png" alt="">
                 </div>
         </section>
-        <section class="deal-des-tages">
+        <section class="deal-des-tages container">
             <div class="bg-text-image">
             <h2>DEAL DES TAGES</h2>
-            <div class="row container container-fluid">
+            <div class="row container-fluid mr-0">
                 <div class="col-md-6 clocks">
-                    CLOCKS
+                    <div class="offer-circle">
+                        <p>
+                            <span class="perc">43%</span>
+                        <span class="off">OFF</span>
+                        </p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-middle" data-widget="marketing-timer" data-date-init="2018, 8, 27">
+                        <div class="line d-flex justify-content-between"> 
+                            <span class="timer_days hidden"></span>
+                            <span class="timer_hours"></span>
+                            <span class="timer_delimiter">h</span>
+                            <span class="timer_minutes"></span>
+                            <span class="timer_delimiter">m</span>
+                            <br/>
+                        </div>
+                        <div>
+                            <span class="timer_seconds"></span>
+                            <span class="timer_delimiter seconds">s</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-center align-middle">
-                        <h3 class="product-description">Aroma Fresh Mafia Cream</h3>
+                    <div class="container">    
+                    <h3 class="product-description">Aroma Fresh Mafia Cream</h3>
                         <div class="starz ">
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
@@ -826,17 +849,18 @@
                             <span class="adv-counter">(68)</span>
                         </div>
                         <div class="cost ">
-                            € 3,90 <span class="line-through">€ 5,90</span> 
-                            <br />
-                            <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#poleChudesModal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" >IN DEN WARENKORB</button>
+                            <span class="old-price">€ 3,90</span> <span class="line-through">€ 5,90</span> 
+                             <br />
+                            <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#lottery_vape_widget">IN DEN WARENKORB</button>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
         </section>
       <!-- Modal -->
-      <div class="modal fade" id="poleChudesModal" tabindex="-1" role="dialog" aria-labelledby="poleChudesCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal fade" id="lottery_vape_widget" tabindex="-1" role="dialog" aria-labelledby="poleChudesCenterTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
@@ -845,7 +869,40 @@
               </button>
             </div>
             <div class="modal-body">
-                    <iframe src="https://www.youtube.com/embed/-s0bU2LR4n0"  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <!-- <iframe src="https://www.youtube.com/embed/-s0bU2LR4n0"  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                    <div class="snackbar hide"></div>
+    <div class="wheel">
+        <div class="rotate">
+            <img class="wheel-img" src="images/wheel.png" />
+            <img class="light light_0-img" src="images/lights/0.png" />
+            <img class="light light_1-img" src="images/lights/1.png" />
+            <img class="light light_2-img" src="images/lights/2.png" />
+            <img class="light light_3-img" src="images/lights/3.png" />
+            <img class="light light_4-img" src="images/lights/4.png" />
+            <img class="light light_5-img" src="images/lights/5.png" />
+            <span class="wheel-text GOOD_LUCK_LATER">GOOD LUCK LATER!</span>
+            <span class="wheel-text _20_DISCOUNT">-20% DISCOUNT</span>
+            <span class="wheel-text FREE_2_PROBE">FREE 2 PROBE</span>
+            <span class="wheel-text _15_DISCOUNT">-15% DISCOUNT</span>
+            <span class="wheel-text OOPS_SO_SORRY">OOPS...
+                <br>SO SORRY</span>
+            <span class="wheel-text _30_DISCOUNT">-30% DISCOUNT</span>
+            <span class="wheel-text NOT_TODAY">NOT TODAY...</span>
+            <span class="wheel-text _10_DISCOUNT">-10% DISCOUNT</span>
+            <span class="wheel-text FREE_1_PROBE">FREE 1 PROBE</span>
+        </div>
+        <img class="arrow-img" src="images/arrow.png" />
+    </div>
+    <div class="content">
+        <img class="content-img" src="images/content.png" />
+        <input class="content-form" type="email" placeholder="Enter your email" />
+        <a href="javascript://" onclick="spin()">
+            <img class="content-btn" src="images/spin-btn.png" />
+        </a>
+        <a href="javascript://" data-dismiss="modal">
+            <img class="exit-btn" src="images/exit-btn.png" />
+        </a>
+    </div>
             </div>
             <!-- <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -864,8 +921,14 @@
 
     <!-- background image clip polyfill -->
     <script src="/scripts/background-clip-text-polyfill.js"></script>
+      <!-- moment.js library -->
+    <script src="/scripts/background-clip-text-polyfill.js"></script>
+    <!-- counttimer widget -->
+    <script src="/scripts/counttimer.js"></script>
 
-
+    <!-- lottery_vape scripts -->
+    <script src="scripts/jqueryrotate.2.1.js"></script>
+    <script type="text/javascript" src="scripts/lottery_vape.js"></script>
     <!-- livereload - remove on prod -->
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>

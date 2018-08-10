@@ -10,6 +10,9 @@ body{
     font-family: Roboto;
 }
 /* utilities */
+.hidden{
+    display:none !important;
+}
 .transparent{
     background: transparent;
 }
@@ -154,6 +157,10 @@ body{
     font-size:1.2rem;
 }
 
+.product-line > .jumbotron {
+    background-color: white;
+}
+
 /* categories */
 
 
@@ -192,7 +199,6 @@ body{
     
 
 .grid-layer .first-container{
-    
     width:100%;
 }
 .grid-layer .first-container img,
@@ -257,16 +263,12 @@ background: url(../images/deal-des-tages.png) no-repeat center center;
     font-size: 57px;
     letter-spacing: 2px;
     font-weight: bolder;
-    margin-left: 12.5rem;
     margin-bottom: 0;
 }
 .deal-des-tages .line-through{
     text-decoration: line-through;
     color: red;
     padding-left: 13px;
-}
-.deal-des-tages .cost{
-    font-size:3rem;
 }
 .deal-des-tages .btn.btn-outline-danger{
     border-radius: 2px;
@@ -286,8 +288,18 @@ background: url(../images/deal-des-tages.png) no-repeat center center;
 }
 .deal-des-tages .product-description{
     font-size: 1.2rem;
-    text-align: left;
+    text-align: center;
     letter-spacing: 2px;
+}
+.deal-des-tages .starz{
+    text-align:center;
+}
+.deal-des-tages .cost{
+    font-size:3rem;
+    text-align: center;
+}
+.deal-des-tages .old-price{
+    margin-left: -10px;
 }
 .adv-counter{
     color:#1587dd
@@ -299,4 +311,58 @@ background: url(../images/deal-des-tages.png) no-repeat center center;
 }    
 .clocks{
     min-height: 500px;
+}
+
+/* Counttimer widget styles */
+[data-widget="marketing-timer"]{
+    font-size:1.5rem;
+    font-weight: bold;
+    line-height: 7rem;
+}
+[data-widget="marketing-timer"] .line{
+
+letter-spacing: 2px;
+
+margin-top: 10rem;
+}
+[data-widget="marketing-timer"] .timer_hours{
+    font-size: 4rem;
+}
+
+[data-widget="marketing-timer"] .timer_minutes{
+    font-size: 4rem;
+    margin-left: 2rem;
+}
+
+[data-widget="marketing-timer"] .timer_seconds{
+    font-size: 10rem;
+}
+
+[data-widget="marketing-timer"] .timer_delimiter.seconds{
+    font-size: 6rem;
+}
+
+.offer-circle{
+    background-color: #f20a51;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    color: white;
+    border-radius:50rem;
+    padding: 7px;
+    position: absolute;
+    right: 14rem;
+    top: 6rem;
+}
+.offer-circle p{
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    padding-top:5px
+}
+.offer-circle .perc{
+    
+}
+.offer-circle .off{
+    /* transform:translateX(-5px); */
 }
