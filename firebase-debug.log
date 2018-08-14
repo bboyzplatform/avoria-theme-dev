@@ -1,0 +1,35 @@
+[debug] [2018-08-14T14:12:09.587Z] ----------------------------------------------------------------------
+[debug] [2018-08-14T14:12:09.589Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user 1\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-08-14T14:12:09.589Z] CLI Version:   4.0.3
+[debug] [2018-08-14T14:12:09.589Z] Platform:      win32
+[debug] [2018-08-14T14:12:09.589Z] Node Version:  v8.11.3
+[debug] [2018-08-14T14:12:09.589Z] Time:          Tue Aug 14 2018 17:12:09 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:12:09.589Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-14T14:12:09.600Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-14T14:12:09.601Z] > authorizing via signed-in user
+[debug] [2018-08-14T14:12:09.602Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-14T14:12:09.602Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/fKGYLr7AGp5kOWY6FHQFFzRS7jwQobFLDQIUESOGD64',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 14 2018 17:12:09 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:12:09.732Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-14T14:12:09.741Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/avoria-dev  
+  
+ Tue Aug 14 2018 17:12:09 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:12:10.520Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-14T14:12:10.522Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/avoria-dev/tokens  
+  
+ Tue Aug 14 2018 17:12:10 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:12:11.205Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'avoria-dev'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
+[debug] [2018-08-14T14:12:13.968Z] Error: ENOENT: no such file or directory, stat 'D:\front-server\dev\.git\objects\47\tmp_obj_SiLbua'
+[error] 
+[error] Error: There was an issue preparing Hosting files for upload.
