@@ -1,35 +1,46 @@
-[debug] [2018-08-14T14:12:09.587Z] ----------------------------------------------------------------------
-[debug] [2018-08-14T14:12:09.589Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user 1\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2018-08-14T14:12:09.589Z] CLI Version:   4.0.3
-[debug] [2018-08-14T14:12:09.589Z] Platform:      win32
-[debug] [2018-08-14T14:12:09.589Z] Node Version:  v8.11.3
-[debug] [2018-08-14T14:12:09.589Z] Time:          Tue Aug 14 2018 17:12:09 GMT+0300 (RTZ 2 (зима))
-[debug] [2018-08-14T14:12:09.589Z] ----------------------------------------------------------------------
+[debug] [2018-08-14T14:38:49.698Z] ----------------------------------------------------------------------
+[debug] [2018-08-14T14:38:49.700Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user 1\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-08-14T14:38:49.701Z] CLI Version:   4.0.3
+[debug] [2018-08-14T14:38:49.701Z] Platform:      win32
+[debug] [2018-08-14T14:38:49.701Z] Node Version:  v8.11.3
+[debug] [2018-08-14T14:38:49.701Z] Time:          Tue Aug 14 2018 17:38:49 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:38:49.701Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-08-14T14:12:09.600Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-08-14T14:12:09.601Z] > authorizing via signed-in user
-[debug] [2018-08-14T14:12:09.602Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-08-14T14:12:09.602Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/fKGYLr7AGp5kOWY6FHQFFzRS7jwQobFLDQIUESOGD64',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Tue Aug 14 2018 17:12:09 GMT+0300 (RTZ 2 (зима))
-[debug] [2018-08-14T14:12:09.732Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-14T14:12:09.741Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/avoria-dev  
+[debug] [2018-08-14T14:38:49.709Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-14T14:38:49.709Z] > authorizing via signed-in user
+[debug] [2018-08-14T14:38:49.711Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/avoria-dev  
   
- Tue Aug 14 2018 17:12:09 GMT+0300 (RTZ 2 (зима))
-[debug] [2018-08-14T14:12:10.520Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-14T14:12:10.522Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/avoria-dev/tokens  
+ Tue Aug 14 2018 17:38:49 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:38:50.455Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-14T14:38:50.456Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/avoria-dev/tokens  
   
- Tue Aug 14 2018 17:12:10 GMT+0300 (RTZ 2 (зима))
-[debug] [2018-08-14T14:12:11.205Z] <<< HTTP RESPONSE 200
+ Tue Aug 14 2018 17:38:50 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:38:51.117Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'avoria-dev'...
 [info] 
 [info] i  deploying hosting
 [info] i  hosting: preparing / directory for upload...
-[debug] [2018-08-14T14:12:13.968Z] Error: ENOENT: no such file or directory, stat 'D:\front-server\dev\.git\objects\47\tmp_obj_SiLbua'
-[error] 
-[error] Error: There was an issue preparing Hosting files for upload.
+[debug] [2018-08-14T14:44:00.424Z] ----------------------------------------------------------------------
+[debug] [2018-08-14T14:44:00.426Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user 1\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-08-14T14:44:00.426Z] CLI Version:   4.0.3
+[debug] [2018-08-14T14:44:00.426Z] Platform:      win32
+[debug] [2018-08-14T14:44:00.426Z] Node Version:  v8.11.3
+[debug] [2018-08-14T14:44:00.426Z] Time:          Tue Aug 14 2018 17:44:00 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:44:00.426Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-14T14:44:00.434Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-14T14:44:00.436Z] > authorizing via signed-in user
+[debug] [2018-08-14T14:44:00.438Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/avoria-dev  
+  
+ Tue Aug 14 2018 17:44:00 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:44:01.279Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-14T14:44:01.282Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/avoria-dev/tokens  
+  
+ Tue Aug 14 2018 17:44:01 GMT+0300 (RTZ 2 (зима))
+[debug] [2018-08-14T14:44:02.035Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'avoria-dev'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...

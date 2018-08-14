@@ -1044,3 +1044,8 @@ letter-spacing: 7px;
     color: #ffffff7a;
     transition:.4s;
 }
+
+
+body > footer > div > div > div:nth-child(5) > form > div > input[type="text"]{
+    border-bottom: 1px solid #1587dd;
+}
