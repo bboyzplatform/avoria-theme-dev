@@ -193,75 +193,90 @@
 <body>
     <header>
         <div class="dark-line d-flex justify-content-end align-items-end">
-
+            <div class="social-panel">    
+                <div class="collapse" id="socialsBtns" style="color:white;">
+                        <ul class="nav">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                              </ul>
+                </div>
+                    
+            </div>
             <div class="rounded-button-block">
-
-                <button type="button" class="btn btn-outline-light" data-toggle="tooltip" data-placement="bottom" title="Search">
-                    <i class="fa fa-search"></i>
-                </button>
-                <button type="button" class="btn btn-outline-light" data-toggle="tooltip" data-placement="bottom" title="Service/Help">
-                    <i class="fa fa-question"></i>
-                </button>
-                <button type="button" class="btn btn-outline-light" data-toggle="tooltip" data-placement="bottom" title="Stores">
+                    
+                    <button class="btn btn-outline-light no-border" type="button" data-toggle="collapse" 
+                    data-toggle="tooltip" data-placement="bottom" title="socials"
+                    data-target="#socialsBtns" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fa fa-th-large"></i>
+                          </button>
+                <button type="button" class="btn btn-outline-light" data-toggle="tooltip" data-placement="bottom" title="offline stores">
                     <i class="fa fa-home"></i>
                 </button>
-
-                <button type="button" class="btn btn-outline-light"><i class="fa fa-facebook"></i></button>
-                <button type="button" class="btn btn-outline-light"><i class="fa fa-instagram"></i></button>
-                <button type="button" class="btn btn btn-outline-light"><i class="fa fa-shopping-bag"></i> $ 0.00</button>
+                <button type="button" class="btn btn-outline-light" data-toggle="tooltip" data-placement="bottom" title="service/hilfe">
+                    <i class="fa fa-question"></i>
+                </button>
+                <button type="button" class="btn btn-outline-light" data-toggle="tooltip" data-placement="bottom" title="konto">
+                    <i class="fa fa-user"></i>
+                </button>
+                <button 
+                    type="button" 
+                    class="btn btn btn-outline-light"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="merkzettel"
+                    ><i class="fa fa-shopping-bag"></i> $ 0.00
+                </button>
+                </button>
+                <button 
+                    type="button" 
+                    class="btn btn btn-outline-light"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Währung"
+                    > <i class="fa fa-dollar"></i>
+                </button>
             </div>
 
         </div>
         <nav class="w-100 navbar main-nav d-flex justify-content-space-beetween">
             <nav class="w-100 d-flex navbar main-nav d-flex justify-content-center">
-                <!--                         
-                                            <a class="navbar-brand" href="./">
-                                                <img src="images/Avoria-Logo-4px-199x80-small.png" class="d-inline-block align-top" alt="Avoria">
-                                            </a> -->
-
-                <!-- <div class="rounded-button-block">
-                                                    <button type="button" class="btn btn-outline-light"><i class="fa fa-search"></i></button>
-                                                    <button type="button" class="btn btn-outline-light">stores</button>
-                                                    <button type="button" class="btn btn-outline-light">faq</button>
-                                                <button type="button" class="btn btn-outline-light"><i class="fa fa-facebook"></i></button>
-                                                <button type="button" class="btn btn-outline-light"><i class="fa fa-instagram"></i></button>
-                                                <button type="button" class="btn btn btn-outline-light"><i class="fa fa-shopping-bag"></i> $ 0.00</button>
-                                            </div> -->
-                <!-- <a class="button hamburger-menu" href="#">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
-                                        </a> -->
-
+              
                 <a class="main-logo " href="./">
                     <img src="images/Avoria-Logo-4px-199x80-small.png" class="d-inline-block align-top" alt="Avoria">
                 </a>
-                <ul class="menu-items nav w-100 justify-content-center" style="
-    position: absolute;
-    top: 4rem;
-    left: -1rem;
-">
-                    <li class="nav-item">
+                <ul class="menu-items nav w-100 justify-content-center" >
+                    <!-- <li class="nav-item">
                         <a class="nav-link active" href="#">startseite</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">E-LIQUID</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">e-liquid</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">deutsche liquid basen</a>
+                        <a class="nav-link" href="#">BASEN</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">AROMEN</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nikotin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ZUSATZSTOFFE</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">E-SHISHA</a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">shake &amp; vape</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#">HARDWARE</a>
+                        <a class="nav-link" href="#">E-ZIA</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHAKE & VAPE</a>
                     </li>
                 </ul>
             </nav>
@@ -766,95 +781,183 @@
         </div>
     </section>
     <section class="categories container">
-        <div class="grid-layer">
-            <div class="row justify-content-md-center">
-                <div class="first-container col-md-10 col-sm-12 col-lg-10">
-                    <h2 class="text-center big-gradient-2colors">Kategorien</h2>
-                    <div class="row">
-                        <div class="col-md-8 d-flex flex-column justify-content-around">
-                            <div class="grid-panel grid-panel d-flex flex-column">
-                                <img src="images/categories-banners/category1.png" alt="NEU IM SORTIMENT">
-                                <div class="dark-panel">
-                                    NEU IM SORTIMENT
-                                </div>
-                            </div>
-                            <div class="row grid-panel">
-                                <div class="col-md-6 grid-item d-flex flex-column top-minus-alignment">
-                                    <img src="images/categories-banners/category4.png" alt="NEU IM SORTIMENT">
-                                    <div class="dark-panel">
-                                        SHAKE &amp; VAPE
-                                    </div>
-                                </div>
-                                <div class="col-md-6 grid-item d-flex flex-column top-minus-alignment">
-                                    <img src="images/categories-banners/category5.png" alt="NEU IM SORTIMENT">
-                                    <div class="dark-panel">
-                                        MISCHZUBEHÖR
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 right-block d-flex flex-column justify-content-around">
-                            <div class="grid-item d-flex flex-column">
-                                <img src="images/categories-banners/category2.png" alt="E-LIQUIDS">
-                                <div class="dark-panel">
-                                    E-LIQUIDS
-                                </div>
-                            </div>
-                            <div class="grid-item d-flex flex-column top-minus-alignment">
-                                <img src="images/categories-banners/category3.png" alt="AROMEN">
-                                <div class="dark-panel">
-                                    AROMEN
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <h2 class="text-center big-gradient-2colors">Kategorien</h2>
+            <div class="row">
+                <div class="col-md-2 col-sm-1">
+                   
                 </div>
-                <div class="second-container col-md-10 col-sm-12 col-lg-10 top-minus-alignment">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="grid-item">
-                                <img src="images/categories-banners/category6.png" alt="NIKOTIN-SHOT">
+                <div class="col-md-4 p-0">
+                    <div class="grid-panel grid-item d-flex flex-column">
+                        <img src="images/categories-banners/category1.png" alt="NEU IM SORTIMENT">
+                        <div class="dark-panel">
+                            NEU IM SORTIMENT
+                        </div>
+                    </div> 
+                    <div class="row margin-top-minus">
+                        <div class="col-6 ">
+                            <div class="grid-item pl-0">
+                                <img src="images/categories-banners/NIKOTIN-SHOT.png" alt="NIKOTIN-SHOT">
                                 <div class="dark-panel">
                                     NIKOTIN-SHOT
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 right-block d-flex flex-column justify-content-around">
-                            <div class="grid-item d-flex flex-column">
-                                <img src="images/categories-banners/category7.png" alt="E-SHISHA">
-                                <div class="dark-panel">
-                                    E-SHISHA
-                                </div>
-                            </div>
-                            <div class="grid-item d-flex flex-column top-minus-alignment">
-                                <img src="images/categories-banners/category8.png" alt="E-ZIGARETTEN" style="
-        margin-top: -12px;
-    ">
-                                <div class="dark-panel">
-                                    E-ZIGARETTEN
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <img src="images/categories-banners/category9.png" alt="ZUSATZSTOFFE">
+                        <div class="col-6">
+                            <div class="grid-item">
+                                <img src="images/categories-banners/ZUSATZSTOFFE.png" alt="ZUSATZSTOFFE">
                                 <div class="dark-panel">
                                     ZUSATZSTOFFE
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- static position pineapple -->
-                <div class="third-container second-container col-md-10 col-sm-12 col-lg-10 top-minus-alignment">
-                    <img src="../images/categories-banners/category10.png" alt="">
-                    <div class="dark-panel">
-                        DEUTSCHE LIQUID BASEN
+                    <div class="grid-item d-flex flex-column margin-top-minus">
+                        <img src="images/categories-banners/deutsche-liquid-basen.png" alt="deutsche liquid basen ">
+                        <div class="dark-panel">
+                                DEUTSCHE LIQUID BASEN
+                        </div>
+                
                     </div>
                 </div>
+                
+                <div class="col-md-2">
+                    <div class="grid-item d-flex flex-column">
+                        <img src="images/categories-banners/e-liquids.png" alt="E-LIQUIDS">
+                        <div class="dark-panel">
+                            E-LIQUIDS
+                        </div>
+                    </div>
+                    <div class="grid-item d-flex flex-column align-items-center justify-content-center margin-top-minus">
+                        <img src="images/categories-banners/aromen.png" alt="AROMEN">
+                        <div class="dark-panel">
+                            AROMEN
+                        </div>
+                    </div>
+                    <div class="grid-item d-flex flex-column align-items-center justify-content-center margin-top-minus" style="margin-top: -2.3rem;">
+                        <img src="images/categories-banners/muchz.png" alt="MISCHZUBEHÖR">
+                        <div class="dark-panel">
+                                MISCHZUBEHÖR
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-2 p-0">
+                    <div class="grid-item d-flex flex-column">
+                        <img src="images/categories-banners/monetz.png" alt="BONUSPUNKTE">
+                        <div class="dark-panel">
+                            BONUSPUNKTE
+                        </div>
+                    </div>
+                    <div class="grid-item d-flex flex-column margin-top-minus">
+                        <img src="images/categories-banners/e-zigaretten.png" alt="E-ZIGARETTEN">
+                        <div class="dark-panel">
+                            E-ZIGARETTEN
+                        </div>
+                    </div>
+                    <div class="grid-item d-flex flex-column margin-top-minus">
+                        <img src="images/categories-banners/shake&amp;vape.png" alt="NEU IM SORTIMENT">
+                        <div class="dark-panel">
+                            SHAKE &amp; VAPE
+                        </div>
+                    </div>
+                    <div class="grid-item d-flex flex-column margin-top-minus">
+                        <img src="images/categories-banners/category7.png" alt="E-SHISHA">
+                        <div class="dark-panel">
+                            E-SHISHA
+                        </div>
+                    </div>             
+                </div>  
             </div>
-        </div>
-    </section>
+            <div class="container">
+                
+            </div>
+            <!-- <div class="grid-layer">
+                <div class="row justify-content-md-center">
+                    <div class="first-container col-md-10 col-sm-12 col-lg-10">
+                        <h2 class="text-center big-gradient-2colors">Kategorien</h2>
+                        <div class="row">
+                            <div class="col-md-8 d-flex flex-column justify-content-around">
+                                <div class="grid-panel grid-panel d-flex flex-column">
+                                    <img src="images/categories-banners/category1.png" alt="NEU IM SORTIMENT">
+                                    <div class="dark-panel">
+                                        NEU IM SORTIMENT
+                                    </div>
+                                </div>
+                                <div class="row grid-panel">
+                                    <div class="col-md-6 grid-item d-flex flex-column top-minus-alignment">
+                                        <img src="images/categories-banners/category4.png" alt="NEU IM SORTIMENT">
+                                        <div class="dark-panel">
+                                            SHAKE &amp; VAPE
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 grid-item d-flex flex-column top-minus-alignment">
+                                        <img src="images/categories-banners/category5.png" alt="NEU IM SORTIMENT">
+                                        <div class="dark-panel">
+                                            MISCHZUBEHÖR
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 right-block d-flex flex-column justify-content-around">
+                                <div class="grid-item d-flex flex-column margin-minus">
+                                    <img src="images/categories-banners/category2.png" alt="E-LIQUIDS">
+                                    <div class="dark-panel">
+                                        E-LIQUIDS
+                                    </div>
+                                </div>
+                                <div class="grid-item d-flex flex-column top-minus-alignment">
+                                    <img src="images/categories-banners/category3.png" alt="AROMEN">
+                                    <div class="dark-panel">
+                                        AROMEN
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-container col-md-10 col-sm-12 col-lg-10 top-minus-alignment">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="grid-item">
+                                    <img src="images/categories-banners/category6.png" alt="NIKOTIN-SHOT">
+                                    <div class="dark-panel">
+                                        NIKOTIN-SHOT
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 right-block d-flex flex-column justify-content-around">
+                                <div class="grid-item d-flex flex-column">
+                                    <img src="images/categories-banners/category7.png" alt="E-SHISHA">
+                                    <div class="dark-panel">
+                                        E-SHISHA
+                                    </div>
+                                </div>
+                                <div class="grid-item d-flex flex-column top-minus-alignment">
+                                    <img src="images/categories-banners/category8.png" alt="E-ZIGARETTEN" style="margin-top: -12px;">
+                                    <div class="dark-panel">
+                                        E-ZIGARETTEN
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <img src="images/categories-banners/category9.png" alt="ZUSATZSTOFFE">
+                                    <div class="dark-panel">
+                                        ZUSATZSTOFFE
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="third-container second-container col-md-10 col-sm-12 col-lg-10 top-minus-alignment">
+                        <img src="../images/categories-banners/category10.png" alt="">
+                        <div class="dark-panel">
+                            DEUTSCHE LIQUID BASEN
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
     <section class="deal-des-tages container">
         <div class="bg-text-image">
             <h2>DEAL DES TAGES</h2>
@@ -866,7 +969,7 @@
                             <span class="off">OFF</span>
                         </p>
                     </div>
-                    <div class="d-flex flex-column justify-content-center align-middle" data-widget="marketing-timer" data-date-init="2018, 8, 27">
+                    <div class="d-flex flex-column justify-content-center align-middle" data-widget="marketing-timer" data-date-init="2018, 8, 31">
                         <div class="line d-flex">
                             <span class="timer_days hidden"></span>
                             <span class="timer_hours"></span>
@@ -1141,6 +1244,13 @@
             </g>
         </svg>
     </footer>
+<div class="overfruits blue-orange" >
+    <img src="/images/orange.png" alt="">
+</div>
+<div class="overfruits pineapple" >
+        <img src="/images/pineapple.png" alt="">
+    </div>
+
     <!-- Modal -->
     <div class="modal fade" id="lottery_vape_widget" tabindex="-1" role="dialog" aria-labelledby="poleChudesCenterTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
